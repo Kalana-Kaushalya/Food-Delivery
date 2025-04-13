@@ -2,6 +2,8 @@ import express from "express";
 import cors from "cors";
 import { connectDB } from "./config/db.js";
 import foodRouter from "./routs/foodRout.js";
+import userRouter from "./routs/userRoute.js";
+import cartRouter from "./routs/cartRoute.js";
 
 //app config
 const app = express();
@@ -17,6 +19,8 @@ connectDB();
 //api endpoints
 app.use("/api/food", foodRouter);
 app.use("/images", express.static("uploads"));
+app.use("/api/user", userRouter);
+app.use("/api/cart", cartRouter);
 
 app.get("/test", (req, res) => {
   res.send("API Working");
