@@ -115,7 +115,7 @@ Use these Stripe test credentials to simulate transactions:
 ![image alt](https://github.com/Kalana-Kaushalya/Tomato-Food-Delivery/blob/main/screenshot1.png?raw=true)
 ![image alt](https://github.com/Kalana-Kaushalya/Tomato-Food-Delivery/blob/main/Screenshot%203.png?raw=true)
 ![image alt](https://github.com/Kalana-Kaushalya/Tomato-Food-Delivery/blob/main/screenshot2.png?raw=true)
-![image alt]
+![image alt](https://github.com/Kalana-Kaushalya/Tomato-Food-Delivery/blob/main/screenshot4.png?raw=true)
 ![image alt]
 ![image alt]
 ![image alt]
