@@ -51,18 +51,27 @@ git clone https://github.com/Kalana-Kaushalya/Tomato-Food-Delivery
 cd tomato-food-delivery
 
 2.Setup Backend
+
 cd backend
+
 npm install
+
 npm run server
 
 3.Setup Frontend
+
 cd ../frontend
+
 npm install
+
 npm run dev
 
 4.Setup Admin Panel
+
 cd ../admin
+
 npm install
+
 npm run dev
 
 
