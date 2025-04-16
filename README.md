@@ -47,6 +47,7 @@ CVC: Any 3 digits (e.g., 123)
 🛠️ Getting Started
 1.Clone the repository
 git clone https://github.com/Kalana-Kaushalya/Tomato-Food-Delivery
+
 cd tomato-food-delivery
 
 2.Setup Backend
