@@ -99,7 +99,7 @@ npm run dev
 ## 💻 Usage
 - **Customer Website**: http://localhost:5173
 - **Admin Dashboard**: http://localhost:5174
-- **Backend API**: http://localhost:8000/api
+- **Backend API**: http://localhost:4000
 
 ## 💳 Payment Testing
 
