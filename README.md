@@ -1,84 +1,116 @@
-🍅 Tomato - Full Stack Food Delivery App
-A complete Food Ordering Web Application built using the MERN Stack (MongoDB, Express, React, Node.js) with Stripe Payment Gateway integration. This project includes a user-facing website, admin panel, and secure backend server, offering a seamless food ordering experience.
+# 🍅 Tomato - Full Stack Food Delivery App
 
+A complete food ordering platform built with the MERN stack (MongoDB, Express, React, Node.js) featuring Stripe payment integration. This project delivers a comprehensive solution with a customer-facing website, admin dashboard, and secure backend.
 
-🚀 Features
-👨‍🍳 User Side
-User registration & login (JWT Auth)
+## 📋 Table of Contents
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Project Structure](#project-structure)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Payment Testing](#payment-testing)
+- [Screenshots](#screenshots)
+  
 
-Browse food items by category
+## ✨ Features
 
-Add/remove items to shopping cart
+### Customer Portal
+- **Authentication** - User registration and login with JWT
+- **Food Exploration** - Browse menu items filtered by categories
+- **Shopping Cart** - Add/remove items with quantity management
+- **Checkout Process** - Secure payment processing with Stripe
+- **Order Management** - View order history and track delivery status
 
-Place orders with Stripe online payment
+### Admin Dashboard
+- **Secure Admin Access** - Protected login for administrators
+- **Order Management** - View and process all customer orders
+- **Status Updates** - Change order status (Preparing, Out for Delivery, Delivered)
+- **Menu Control** - Add, edit, and remove menu items
+- **Inventory Management** - Update product availability and pricing
 
-View past orders and delivery status
+## 🧰 Tech Stack
 
+| Layer | Technologies |
+|-------|--------------|
+| **Frontend** | React.js, React Router DOM, Context API, Axios |
+| **Styling** | CSS, React Toastify for notifications |
+| **Backend** | Node.js, Express.js |
+| **Database** | MongoDB, Mongoose ODM |
+| **Authentication** | JSON Web Tokens (JWT) |
+| **Payment Processing** | Stripe API |
+| **Development Tools** | Git, GitHub, dotenv, Postman |
 
-🛠️ Admin Panel
-Admin login
+## 📁 Project Structure
 
-View and manage all orders
-
-Update order status (e.g., Processing → Delivered)
-
-Manage menu items (add, edit, delete)
-
-
-🧰 Tech Stack
-Layer	Technologies Used
-Frontend	React JS, React Router, Axios, CSS, React Toastify
-Backend	Node.js, Express.js, MongoDB, Mongoose, JWT
-Payment	Stripe API
-Other	Git, GitHub, Dotenv, Postman
-
-
-📁 Project Structure
+```
 tomato-food-delivery/
-├── backend/       # Node.js + Express server (API & DB)
-├── frontend/      # React client app for users
-└── admin/         # React admin dashboard for order management
+├── backend/           # Node.js + Express server
+│   ├── controllers/   # Request handlers
+│   ├── models/        # Database models
+│   ├── routes/        # API endpoints
+│   └── middleware/    # Auth and validation
+│
+├── frontend/          # React customer application
+│   ├── public/        # Static files
+│   └── src/           # React components & logic
+│
+└── admin/             # React admin dashboard
+    ├── public/        # Static files
+    └── src/           # Admin components & logic
+```
 
+## 🚀 Installation
 
-💳 Stripe Test Card
-Use the following test card details to simulate payments:
+### Prerequisites
+- Node.js (v14 or higher)
+- MongoDB (local or Atlas)
+- npm or yarn
 
-Card Number: 4242 4242 4242 4242
-
-Expiry Date: Any future date (e.g., 12/34)
-
-CVC: Any 3 digits (e.g., 123)
-
-
-🛠️ Getting Started
-1.Clone the repository
+### Clone Repository
+```bash
 git clone https://github.com/Kalana-Kaushalya/Tomato-Food-Delivery
-
 cd tomato-food-delivery
+```
 
-2.Setup Backend
-
+### Backend Setup
+```bash
 cd backend
-
 npm install
-
+# Configure environment variables
+cp .env.example .env
+# Edit .env with your MongoDB URI and JWT secret
 npm run server
+```
 
-3.Setup Frontend
-
+### Frontend Setup
+```bash
 cd ../frontend
-
 npm install
-
 npm run dev
+```
 
-4.Setup Admin Panel
-
+### Admin Panel Setup
+```bash
 cd ../admin
-
 npm install
-
 npm run dev
+```
 
+## 💻 Usage
+- **Customer Website**: http://localhost:5173
+- **Admin Dashboard**: http://localhost:5174
+- **Backend API**: http://localhost:8000/api
 
+## 💳 Payment Testing
+
+Use these Stripe test credentials to simulate transactions:
+
+| Field | Value |
+|-------|-------|
+| Card Number | 4242 4242 4242 4242 |
+| Expiry Date | Any future date (MM/YY) |
+| CVC | Any 3 digits |
+
+## 📸 Screenshots
+*Coming soon*
 
