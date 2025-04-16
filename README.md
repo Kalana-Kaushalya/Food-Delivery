@@ -112,5 +112,5 @@ Use these Stripe test credentials to simulate transactions:
 | CVC | Any 3 digits |
 
 ## 📸 Screenshots
-*Coming soon*
+![image alt](https://github.com/Kalana-Kaushalya/Tomato-Food-Delivery/blob/main/screenshot1.png?raw=true)
 
